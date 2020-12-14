@@ -1,7 +1,26 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
-    background-color: #fdc52c;
+    background-color: #d4a373;
 }
 
 img {
     position: absolute;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+section h1 {
+    font-size: 120px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
 }
